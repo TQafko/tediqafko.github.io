@@ -6,7 +6,7 @@ tags = [
     "robot", "water"
 ]
 
-image = "/img/float/float-3d.png"
+image = "/tediqafko.github.io/img/float/float-3d.png"
 +++
 
 ## Project Overview
@@ -15,7 +15,7 @@ The float is a semi-autonomous underwater device designed to quickly profile aqu
 
 ## Diagram of Components
 
-<img src="/img/float/diagram-float.png">
+<img src="/tediqafko.github.io/img/float/diagram-float.png">
 
 ## Project Objectives
 
@@ -29,7 +29,7 @@ The float is a semi-autonomous underwater device designed to quickly profile aqu
 
 <div style="display: flex; align-items: center; justify-content: center;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/float/electronics.jpeg" style="max-width: 70%; border-radius: 20px;">
+    <img src="/tediqafko.github.io/img/float/electronics.jpeg" style="max-width: 70%; border-radius: 20px;">
   </div>
   <div style="flex: 1;">
     <ol style="margin: 0;">
@@ -52,16 +52,16 @@ The float is a semi-autonomous underwater device designed to quickly profile aqu
 ### Buoyancy Engine
 The buoyancy engine is a core component of the float, enabling precise vertical movement in water. It is actuated by a stepper-motor-driven lead screw, which adjusts the buoyancy by extending or retracting internal mechanisms to change the float’s overall density. This allows the device to ascend, descend, or maintain depth semi-autonomously during profiling tasks. Combined with adjustable ballast syringes and steel weights, the buoyancy engine ensures stable vertical orientation, while the waterproof housing and O-ring seals protect the system under water pressures up-to 1 meter depth.
 
-<img src="/img/float/buoyancy-engine.png">
+<img src="/tediqafko.github.io/img/float/buoyancy-engine.png">
 
 ### Mechanics
 
 The waterproofing was achieved using two SLA-printed end caps, which eliminated the surface imperfections typically seen in FDM printing. Each end cap incorporates two silicone O-rings, lubricated every time the capsule is opened to ensure a tight seal. A pressure relief valve at the top allows the float to safely vent built-up internal pressure when submerging to greater depths. The bar intakes were epoxied to the bottom endcap to create a strong seal between the end-cap and end of syringes.
 
 <div style="display: flex; gap: 10px;">
-  <img src="/img/float/top-end-cap.jpeg" style="flex: 1; max-width: 32%; height: auto;">
-  <img src="/img/float/bottom-end-cap.jpeg" style="flex: 1; max-width: 32%; height: auto;">
-  <img src="/img/float/barb-syringe.png" style="flex: 1; max-width: 32%; height: auto;">
+  <img src="/tediqafko.github.io/img/float/top-end-cap.jpeg" style="flex: 1; max-width: 32%; height: auto;">
+  <img src="/tediqafko.github.io/img/float/bottom-end-cap.jpeg" style="flex: 1; max-width: 32%; height: auto;">
+  <img src="/tediqafko.github.io/img/float/barb-syringe.png" style="flex: 1; max-width: 32%; height: auto;">
 </div>
 <p><strong>Figure 4. </strong> The first is the top end cap that consists of the 2.4GHz antenna, the rotate switch valve, the pressure sensor, and the pressure relif valve. The middle picture shows the o-rings fitting in the tubing and the bottom of the barb intakes. The right most picture shows how the tubing between the barbs and the syringes is done with small pvc tubing and waterprofed with epoxy.</p>
 

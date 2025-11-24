@@ -6,7 +6,7 @@ description = "A work-in-progress 1P PocketQube Earth observation satellite push
 tags = [
     "satellite", "space"
 ]
-image = "../../../static/img/nanosat/sat.png"
+image = "/tediqafko.github.io/img/nanosat/sat.png"
 +++
 
 ## Overview 
@@ -20,10 +20,10 @@ A work-in-progress 1P PocketQube Earth observation satellite pushing the limits 
 - Ensure satellite operational lifespan of at least 2 years.
 - Enable reliable bilateral communication between the satellite and the ground station.
 
-<img src="../../../static/img/nanosat/sat.png" width="80%">
+<img src="/tediqafko.github.io/img/nanosat/sat.png" width="80%">
 
 <p><strong>Figure 1.</strong> The latest design of the satellite consists of five solar panel PCBs that fit together to form the satellite’s structure. The electronics fit tightly inside, including the flight board at the top, the communications board in the middle, and the power management board at the bottom. The bottom plate is a mounting PCB designed to fit inside rocker launchers for 1P satellites, featuring two switches that enable power to the satellite when launched from the rocket.</p>
-<img src="../../../static/img/nanosat/sat.jpg" width="80%">
+<img src="/tediqafko.github.io/img/nanosat/sat.jpg" width="80%">
 <p><strong>Figure 2. </strong> The team worked closely with Nepali Orion Space to learn about satellites. This is the Nepali Orion pico satellite that we used to understand the development and requirements of nanosatellites. It consists of a communications board at the top, a payload board with pressure and IMU sensors, a flight controller board using an ATmega328P, and a power management board. </p>
 
 
@@ -36,31 +36,31 @@ Various software was used to design the PCBs. KiCad and Altium were the main PCB
 
   <div style="flex: 1 1 30%; text-align: center;">
     <p><strong>3D Model (Solar Charger)</strong></p>
-    <img src="../../../static/img/nanosat/solar-charger-3d.png" alt="Image 1" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/tediqafko.github.io/img/nanosat/solar-charger-3d.png" alt="Image 1" style="max-width: 100%; height: auto; border-radius: 6px;">
   </div>
 
   <div style="flex: 1 1 30%; text-align: center;">
     <p><strong> Layout (Solar Charger)</strong></p>
-    <img src="../../../static/img/nanosat/solar-charger-layout.png" alt="Image 2" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/tediqafko.github.io/img/nanosat/solar-charger-layout.png" alt="Image 2" style="max-width: 100%; height: auto; border-radius: 6px;">
   </div>
 
   <div style="flex: 1 1 30%; text-align: center;">
     <p><strong>Schematic (Solar Charger)</strong></p>
-    <img src="../../../static/img/nanosat/solar-charger-schematic.png" alt="Image 3" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/tediqafko.github.io/img/nanosat/solar-charger-schematic.png" alt="Image 3" style="max-width: 100%; height: auto; border-radius: 6px;">
   </div>
 
   <div style="flex: 1 1 45%; text-align: center;">
     <p><strong>3D Model (STM32 Board)</strong></p>
-    <img src="../../../static/img/nanosat/proto-board.png" alt="Image 4" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/tediqafko.github.io/img/nanosat/proto-board.png" alt="Image 4" style="max-width: 100%; height: auto; border-radius: 6px;">
   </div>
 
   <div style="flex: 1 1 45%; text-align: center;">
     <p><strong>Layout (STM32 Board)</strong></p>
-    <img src="../../../static/img/nanosat/proto-board-layout.png" alt="Image 5" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/tediqafko.github.io/img/nanosat/proto-board-layout.png" alt="Image 5" style="max-width: 100%; height: auto; border-radius: 6px;">
   </div>
 
 </div>
 
 
 ## Electrical Power System & Inital Solar Cell Layouts
-<embed src="../../../static/img/nanosat/pico-eps.pdf" type="application/pdf" width="100%" height="600px" title="Embedded PDF Viewer" />
+<embed src="/tediqafko.github.io/img/nanosat/pico-eps.pdf" type="application/pdf" width="100%" height="600px" title="Embedded PDF Viewer" />
