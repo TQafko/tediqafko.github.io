@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS on Portfolio</title>
+    <link>http://localhost:1313/tags/ros/</link>
+    <description>Recent content in ROS on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>tedi.qafko@gmail.com (Tedi Qafko)</managingEditor>
+    <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
+    <copyright>Tedi Qafko</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 Underwater Rover</title>
+      <link>http://localhost:1313/projects/float/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
+      <guid>http://localhost:1313/projects/float/</guid>
+      <description>&lt;p&gt;sdasd&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2023 Underwater Rover</title>
+      <link>http://localhost:1313/projects/rov/2023/2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
+      <guid>http://localhost:1313/projects/rov/2023/2023/</guid>
+      <description>&lt;p&gt;sdasd&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
