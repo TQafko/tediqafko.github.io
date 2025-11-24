@@ -6,7 +6,7 @@ description = "A spherical autonomous robot designed for low-cost freshwater mon
 tags = [
     "robot", "water"
 ]
-image = "/tediqafko.github.io/img/watersphere.png"
+image = "/http://tediqafko.com/img/watersphere.png"
 +++
 
 # Overview
@@ -15,7 +15,7 @@ A spherical autonomous robot designed for low-cost freshwater monitoring, integr
 
 <div style="display: flex; justify-content: center; align-items: center;">
     <video width="100%" autoplay loop>
-        <source src="/tediqafko.github.io/img/sphere/reaction-wheel1.mp4" type="video/mp4">
+        <source src="/http://tediqafko.com/img/sphere/reaction-wheel1.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -23,12 +23,12 @@ A spherical autonomous robot designed for low-cost freshwater monitoring, integr
 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px; padding: 10px 0;">
-    <img src="/tediqafko.github.io/img/sphere_together_assembled.png" style="width: 30%; max-width: 350px;">
+    <img src="/http://tediqafko.com/img/sphere_together_assembled.png" style="width: 30%; max-width: 350px;">
     <!-- Arrow from Heroicons -->
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" style="width: 60px; height: 60px;">>
     <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
     </svg>
-    <img src="/tediqafko.github.io/img/sphere_assembly.png" style="width: 30%; max-width: 350px;">
+    <img src="/http://tediqafko.com/img/sphere_assembly.png" style="width: 30%; max-width: 350px;">
 </div>
 
 <p><strong>Figure 2.</strong> The models above were designed and rendered in SolidWorks.</p>
@@ -42,7 +42,7 @@ A spherical autonomous robot designed for low-cost freshwater monitoring, integr
 
 ## Diagram of Electronics
 
-<img src="/tediqafko.github.io/img/sphere/diagram.png">
+<img src="/http://tediqafko.com/img/sphere/diagram.png">
 <p><strong>Figure 2.</strong> The diagram above captures the computer station running a flask software for communication, the main control unit with all the sensors and control logic, the power distribution, motor controllers, and buoyancy engine.</p>
 
 
@@ -66,8 +66,8 @@ Below is a table for all the components that were used to build this sphere.
 ## Assembly and Circuit Board
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-    <img src="/tediqafko.github.io/img/sphere/sphere-components.png" style="width: 60%; max-width: 900px;">
-    <img src="/tediqafko.github.io/img/sphere/circuit-board.png"style="width: 40%; max-width: 370px;">
+    <img src="/http://tediqafko.com/img/sphere/sphere-components.png" style="width: 60%; max-width: 900px;">
+    <img src="/http://tediqafko.com/img/sphere/circuit-board.png"style="width: 40%; max-width: 370px;">
 </div>
 
 <p><strong>Figure 3.</strong> The model on the left labels all the components of the sphere and on the right, is a 3D model of the printed circuit board designed in KiCAD.</p>

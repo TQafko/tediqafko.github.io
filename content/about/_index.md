@@ -7,7 +7,7 @@ layout = "single"
 toc = false
 
 +++
-<img src="/img/tedi_aboutme.jpeg" width = "50%">
+<img src="/http://tediqafko.com/img/tedi_aboutme.jpeg" width = "50%">
 
 A recent graduate in EECS working as a Software Engineer at MIT LL with a multidisciplinary skillset and a strong physics and mathematics background. I am looking to apply my knowledge, skills, and creativity to design and develop innovative solutions that contribute to electrical systems and advancements in Robotics, Signal Processing, and Embedded Systems.
 
