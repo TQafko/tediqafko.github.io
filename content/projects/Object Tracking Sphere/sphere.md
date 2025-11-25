@@ -14,9 +14,16 @@ image = "/img/watersphere.png"
 A spherical autonomous robot designed for low-cost freshwater monitoring, integrating reaction-wheel actuation, a buoyancy engine, and a modular sensor suite for real-time environmental data collection.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <video width="100%" autoplay loop>
-        <source src="/img/sphere/reaction-wheel1.mp4" type="video/mp4">
-    </video>
+  <video 
+    width="100%" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 100%; width: 100%;"
+  >
+    <source src="/img/sphere/reaction-wheel1.mp4" type="video/mp4">
+  </video>
 </div>
 
 <p><strong>Figure 1.</strong> A prototype assembly of one of the components in the robot called a reaction wheel. Uses angular momentum to orient the sphere. Two of these on the sphere control 3 degrees of freedom</p>
