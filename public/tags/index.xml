@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Portfolio</title>
-    <link>http://localhost:1313/tediqafko.github.io/tags/</link>
+    <link>hhtp://192.168.12.112:1313/tags/</link>
     <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,33 +10,33 @@
     <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
     <copyright>Tedi Qafko</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tediqafko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="hhtp://192.168.12.112:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Robot</title>
-      <link>http://localhost:1313/tediqafko.github.io/tags/robot/</link>
+      <link>hhtp://192.168.12.112:1313/tags/robot/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>http://localhost:1313/tediqafko.github.io/tags/robot/</guid>
+      <guid>hhtp://192.168.12.112:1313/tags/robot/</guid>
       <description></description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://localhost:1313/tediqafko.github.io/tags/water/</link>
+      <link>hhtp://192.168.12.112:1313/tags/water/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>http://localhost:1313/tediqafko.github.io/tags/water/</guid>
+      <guid>hhtp://192.168.12.112:1313/tags/water/</guid>
       <description></description>
     </item>
     <item>
       <title>Satellite</title>
-      <link>http://localhost:1313/tediqafko.github.io/tags/satellite/</link>
+      <link>hhtp://192.168.12.112:1313/tags/satellite/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>http://localhost:1313/tediqafko.github.io/tags/satellite/</guid>
+      <guid>hhtp://192.168.12.112:1313/tags/satellite/</guid>
       <description></description>
     </item>
     <item>
       <title>Space</title>
-      <link>http://localhost:1313/tediqafko.github.io/tags/space/</link>
+      <link>hhtp://192.168.12.112:1313/tags/space/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>http://localhost:1313/tediqafko.github.io/tags/space/</guid>
+      <guid>hhtp://192.168.12.112:1313/tags/space/</guid>
       <description></description>
     </item>
   </channel>

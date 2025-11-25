@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tediqafko.github.io/about/</loc>
+    <loc>hhtp://192.168.12.112:1313/about/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/</loc>
+    <loc>hhtp://192.168.12.112:1313/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/rov/2024/2024/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/rov/2024/2024/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/float/float/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/float/float/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/tags/robot/</loc>
+    <loc>hhtp://192.168.12.112:1313/tags/robot/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/tags/</loc>
+    <loc>hhtp://192.168.12.112:1313/tags/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/tags/water/</loc>
+    <loc>hhtp://192.168.12.112:1313/tags/water/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/nanosatellite/satellite/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/nanosatellite/satellite/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/tags/satellite/</loc>
+    <loc>hhtp://192.168.12.112:1313/tags/satellite/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/tags/space/</loc>
+    <loc>hhtp://192.168.12.112:1313/tags/space/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/object-tracking-sphere/sphere/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/object-tracking-sphere/sphere/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/manifest.json</loc>
+    <loc>hhtp://192.168.12.112:1313/manifest.json</loc>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/projects/rov/2023/2023/</loc>
+    <loc>hhtp://192.168.12.112:1313/projects/rov/2023/2023/</loc>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.de/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.de/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.es/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.es/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.fr/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.fr/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.hi/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.hi/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.jp/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.jp/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.nl/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.nl/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.pl/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.pl/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.ru/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.ru/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/search/_index.zh-cn/</loc>
+    <loc>hhtp://192.168.12.112:1313/search/_index.zh-cn/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/categories/</loc>
+    <loc>hhtp://192.168.12.112:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/research/</loc>
+    <loc>hhtp://192.168.12.112:1313/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/tediqafko.github.io/series/</loc>
+    <loc>hhtp://192.168.12.112:1313/series/</loc>
   </url>
 </urlset>
