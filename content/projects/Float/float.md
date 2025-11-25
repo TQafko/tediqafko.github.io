@@ -27,12 +27,54 @@ The float is a semi-autonomous underwater device designed to quickly profile aqu
 
 ## Materials and Electronics
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <div style="flex: 1; text-align: center;">
-    <img src="/img/float/electronics.jpeg" style="max-width: 70%; border-radius: 20px;">
+<style>
+.float-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.float-image {
+  flex: 1;
+  text-align: center;
+}
+
+.float-image img {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.float-list {
+  flex: 1;
+}
+
+/* Mobile layout: stack vertically */
+@media (max-width: 768px) {
+  .float-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .float-image img {
+    max-width: 100%;
+  }
+
+  .float-list {
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+
+
+<div class="float-wrap">
+  <div class="float-image">
+    <img src="/img/float/electronics.jpeg">
   </div>
-  <div style="flex: 1;">
-    <ol style="margin: 0;">
+
+  <div class="float-list">
+    <ol style="margin: 0; padding-left: 20px;">
       <li><strong>2.4 GHz Antenna</strong></li>
       <li><strong>MS2958 Pressure Sensor</strong></li>
       <li><strong>Air Pressure Valve</strong></li>
@@ -46,6 +88,7 @@ The float is a semi-autonomous underwater device designed to quickly profile aqu
     </ol>
   </div>
 </div>
+
 
 ## 3D Design
 
@@ -67,16 +110,33 @@ The waterproofing was achieved using two SLA-printed end caps, which eliminated 
 
 ## Demonstration Video
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div>
-        <iframe width="640" height="360" 
-                src="https://www.youtube.com/embed/jgls7owthrA?rel=0&amp;autoplay=1&mute=1" 
-                title="Float Demo 2024" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
-    </div>
+<style>
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px; 
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/jgls7owthrA?rel=0&autoplay=1&mute=1"
+    title="Float Demo 2024"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
 
 <div style="display: flex; justify-content: center;">

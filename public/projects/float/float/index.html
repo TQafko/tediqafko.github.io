@@ -316,12 +316,51 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
 <li>Maintain vertical stability through weighted ballast and adjustable syringes.</li>
 </ul>
 <h2 id="materials-and-electronics">Materials and Electronics</h2>
-<div style="display: flex; align-items: center; justify-content: center;">
-  <div style="flex: 1; text-align: center;">
-    <img src="/img/float/electronics.jpeg" style="max-width: 70%; border-radius: 20px;">
+<style>
+.float-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.float-image {
+  flex: 1;
+  text-align: center;
+}
+
+.float-image img {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.float-list {
+  flex: 1;
+}
+
+/* Mobile layout: stack vertically */
+@media (max-width: 768px) {
+  .float-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .float-image img {
+    max-width: 100%;
+  }
+
+  .float-list {
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<div class="float-wrap">
+  <div class="float-image">
+    <img src="/img/float/electronics.jpeg">
   </div>
-  <div style="flex: 1;">
-    <ol style="margin: 0;">
+  <div class="float-list">
+    <ol style="margin: 0; padding-left: 20px;">
       <li><strong>2.4 GHz Antenna</strong></li>
       <li><strong>MS2958 Pressure Sensor</strong></li>
       <li><strong>Air Pressure Valve</strong></li>
@@ -348,16 +387,32 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
 </div>
 <p><strong>Figure 4. </strong> The first is the top end cap that consists of the 2.4GHz antenna, the rotate switch valve, the pressure sensor, and the pressure relif valve. The middle picture shows the o-rings fitting in the tubing and the bottom of the barb intakes. The right most picture shows how the tubing between the barbs and the syringes is done with small pvc tubing and waterprofed with epoxy.</p>
 <h2 id="demonstration-video">Demonstration Video</h2>
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div>
-        <iframe width="640" height="360" 
-                src="https://www.youtube.com/embed/jgls7owthrA?rel=0&amp;autoplay=1&mute=1" 
-                title="Float Demo 2024" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
-    </div>
+<style>
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px; 
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/jgls7owthrA?rel=0&autoplay=1&mute=1"
+    title="Float Demo 2024"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
 <div style="display: flex; justify-content: center;">
   <p style="width: 75%; text-align: center;">
