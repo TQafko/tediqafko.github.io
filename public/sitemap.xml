@@ -11,13 +11,31 @@
     <loc>hhtp://192.168.12.112:1313/projects/rov/2024/2024/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/control/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/esp32/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>hhtp://192.168.12.112:1313/projects/float/float/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/kicad/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/linux/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>hhtp://192.168.12.112:1313/projects/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>hhtp://192.168.12.112:1313/tags/robot/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/ros/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/solidworks/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>hhtp://192.168.12.112:1313/tags/</loc>
@@ -29,11 +47,23 @@
     <loc>hhtp://192.168.12.112:1313/projects/nanosatellite/satellite/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/altium/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>hhtp://192.168.12.112:1313/tags/satellite/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>hhtp://192.168.12.112:1313/tags/space/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/stm32/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/iot/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>hhtp://192.168.12.112:1313/tags/network/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>hhtp://192.168.12.112:1313/projects/object-tracking-sphere/sphere/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>

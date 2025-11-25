@@ -7,8 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Project Overview The float is a semi-autonomous underwater device designed to quickly profile aquatic environments while sending real-time depth data to a surface station. Its compact waterproof housing, adjustable ballast, and stepper-driven buoyancy system make it both precise and robust for variable underwater conditions.
-Diagram of Components Project Objectives Perform vertical underwater profiling semi-autonomously. Transmit depth and sensor data in real time to a surface station. Control buoyancy precisely using a stepper-motor-driven lead screw and adjustable weights. Ensure reliability and safety with waterproof housing and inline current protection. Maintain vertical stability through weighted ballast and adjustable syringes. Materials and Electronics 2.4 GHz Antenna MS2958 Pressure Sensor Air Pressure Valve On/Off Switch Electronics Unit (ELEC-NRD-004) 7.5A Fuse (ELEC-NRD-005) NEMA 17 Motor Syringe Barb Intakes O-Ring End Caps (ELEC-NRD-006) 3D Design Buoyancy Engine The buoyancy engine is a core component of the float, enabling precise vertical movement in water. It is actuated by a stepper-motor-driven lead screw, which adjusts the buoyancy by extending or retracting internal mechanisms to change the float’s overall density. This allows the device to ascend, descend, or maintain depth semi-autonomously during profiling tasks. Combined with adjustable ballast syringes and steel weights, the buoyancy engine ensures stable vertical orientation, while the waterproof housing and O-ring seals protect the system under water pressures up-to 1 meter depth.
+  content=" Project Overview The float is a semi-autonomous underwater device designed to quickly profile aquatic environments while sending real-time depth data to a surface station. Its compact waterproof housing, adjustable ballast, and stepper-driven buoyancy system make it both precise and robust for variable underwater conditions.
 "
 />
 <meta
@@ -26,6 +25,8 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
     <meta property="article:modified_time" content="2024-09-01T00:00:00+00:00">
     <meta property="article:tag" content="Robot">
     <meta property="article:tag" content="Water">
+    <meta property="article:tag" content="Esp32">
+    <meta property="article:tag" content="Control">
 
 
   <meta name="twitter:card" content="summary">
@@ -234,6 +235,40 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
         </a>
       </li>
       
+      <li>
+        <a href="/tags/esp32/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Esp32</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/control/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Control</span>
+        </a>
+      </li>
+      
     
   </ul>
 
@@ -291,7 +326,6 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
     <li><a href="#3d-design">3D Design</a>
       <ul>
         <li><a href="#buoyancy-engine">Buoyancy Engine</a></li>
-        <li><a href="#mechanics">Mechanics</a></li>
       </ul>
     </li>
     <li><a href="#demonstration-video">Demonstration Video</a></li>
@@ -303,10 +337,68 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <h2 id="project-overview">Project Overview</h2>
+        <style>
+  .float-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .float-image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .float-image img {
+    max-width: 70%;
+    border-radius: 20px;
+  }
+
+  .float-list {
+    flex: 1;
+  }
+
+  /* Mobile layout: stack vertically */
+  @media (max-width: 768px) {
+    .float-wrap {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .float-image img {
+      max-width: 100%;
+    }
+
+    .float-list {
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+</style>
+<h2 id="project-overview">Project Overview</h2>
 <p>The float is a semi-autonomous underwater device designed to quickly profile aquatic environments while sending real-time depth data to a surface station. Its compact waterproof housing, adjustable ballast, and stepper-driven buoyancy system make it both precise and robust for variable underwater conditions.</p>
 <h2 id="diagram-of-components">Diagram of Components</h2>
-<img src="/img/float/diagram-float.png">
+<img src="/img/float/diagram-float.png" width="100%">
+<strong>Figure 1.</strong> Diagram of electronics using a ESP32 as the main controller unit, a real time clock sensor for keeping timestamps, pressure sensors to measure depth in water, stepper motor and controller, an antenna, and alkeline batteries.
 <h2 id="project-objectives">Project Objectives</h2>
 <ul>
 <li>Perform vertical underwater profiling semi-autonomously.</li>
@@ -316,48 +408,10 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
 <li>Maintain vertical stability through weighted ballast and adjustable syringes.</li>
 </ul>
 <h2 id="materials-and-electronics">Materials and Electronics</h2>
-<style>
-.float-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.float-image {
-  flex: 1;
-  text-align: center;
-}
-
-.float-image img {
-  max-width: 70%;
-  border-radius: 20px;
-}
-
-.float-list {
-  flex: 1;
-}
-
-/* Mobile layout: stack vertically */
-@media (max-width: 768px) {
-  .float-wrap {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .float-image img {
-    max-width: 100%;
-  }
-
-  .float-list {
-    width: 100%;
-    text-align: left;
-  }
-}
-</style>
 <div class="float-wrap">
-  <div class="float-image">
+  <div class="float-image" style="text-align:left;">
     <img src="/img/float/electronics.jpeg">
+    <strong>Figure 2.</strong> Electronics Housing.
   </div>
   <div class="float-list">
     <ol style="margin: 0; padding-left: 20px;">
@@ -378,7 +432,10 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
 <h3 id="buoyancy-engine">Buoyancy Engine</h3>
 <p>The buoyancy engine is a core component of the float, enabling precise vertical movement in water. It is actuated by a stepper-motor-driven lead screw, which adjusts the buoyancy by extending or retracting internal mechanisms to change the float’s overall density. This allows the device to ascend, descend, or maintain depth semi-autonomously during profiling tasks. Combined with adjustable ballast syringes and steel weights, the buoyancy engine ensures stable vertical orientation, while the waterproof housing and O-ring seals protect the system under water pressures up-to 1 meter depth.</p>
 <img src="/img/float/buoyancy-engine.png">
-<h3 id="mechanics">Mechanics</h3>
+<div style="text-align:center;">
+  <strong>Figure 3.</strong> Image of the buoyancy engine
+</div>
+### Mechanics
 <p>The waterproofing was achieved using two SLA-printed end caps, which eliminated the surface imperfections typically seen in FDM printing. Each end cap incorporates two silicone O-rings, lubricated every time the capsule is opened to ensure a tight seal. A pressure relief valve at the top allows the float to safely vent built-up internal pressure when submerging to greater depths. The bar intakes were epoxied to the bottom endcap to create a strong seal between the end-cap and end of syringes.</p>
 <div style="display: flex; gap: 10px;">
   <img src="/img/float/top-end-cap.jpeg" style="flex: 1; max-width: 32%; height: auto;">
@@ -387,24 +444,6 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
 </div>
 <p><strong>Figure 4. </strong> The first is the top end cap that consists of the 2.4GHz antenna, the rotate switch valve, the pressure sensor, and the pressure relif valve. The middle picture shows the o-rings fitting in the tubing and the bottom of the barb intakes. The right most picture shows how the tubing between the barbs and the syringes is done with small pvc tubing and waterprofed with epoxy.</p>
 <h2 id="demonstration-video">Demonstration Video</h2>
-<style>
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 900px; 
-  margin: 0 auto;
-  padding-bottom: 56.25%; /* 16:9 ratio */
-  height: 0;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
 <div class="video-wrapper">
   <iframe
     src="https://www.youtube.com/embed/jgls7owthrA?rel=0&autoplay=1&mute=1"
@@ -415,7 +454,7 @@ Diagram of Components Project Objectives Perform vertical underwater profiling s
   </iframe>
 </div>
 <div style="display: flex; justify-content: center;">
-  <p style="width: 75%; text-align: center;">
+  <p style="width: 100%; text-align: center;">
     <strong>Figure 3.</strong> Demonstration of the float in action. When the float is at the surface of the water, it transmits the data it received underwater, mapping pressure and temperature.
   </p>
 </div>

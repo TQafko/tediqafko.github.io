@@ -3,9 +3,7 @@ author = "Tedi Qafko"
 title = "Object Tracking Sphere"
 date = "2019-03-05"
 description = "A spherical autonomous robot designed for low-cost freshwater monitoring, integrating reaction-wheel actuation, a buoyancy engine, and a modular sensor suite for real-time environmental data collection."
-tags = [
-    "robot", "water"
-]
+tags = ["robot", "water", "IoT", "SolidWorks", "Network"]
 image = "/img/watersphere.png"
 +++
 
@@ -78,15 +76,6 @@ Below is a table for all the components that were used to build this sphere.
 </div>
 
 <p><strong>Figure 3.</strong> The model on the left labels all the components of the sphere and on the right, is a 3D model of the printed circuit board designed in KiCAD.</p>
-
-<!--  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
-<model-viewer src="/models/car-test.glb" 
-              alt="ROV 3D Model" 
-              auto-rotate 
-              camera-controls 
-              style="width: 600px; height: 400px;">
-</model-viewer> -->
 
 ## Software
 

@@ -3,15 +3,49 @@ author = "Tedi Qafko"
 title = "1P Nano Satellite"
 date = "2021-10-01"
 description = "A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging."
-tags = [
-    "satellite", "space"
-]
+tags = ["satellite", "space", "stm32","KiCad","Altium"]
 image = "/img/nanosat/sat.png"
 +++
+
+<style>
+    .responsive-img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 768px) { .responsive-img { width: 100%; } }
+
+    .pdf-embed-wrapper embed {
+        width: 100%;
+        height: 600px;
+    }
+
+    .pdf-mobile-button {
+        display: none;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) { .pdf-embed-wrapper { display: none; }
+
+    .pdf-mobile-button {
+        display: block; 
+        margin: 1rem auto;
+        width: 100%; 
+    }
+
+    .pdf-mobile-button img {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+
 
 ## Overview 
 
 A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging.
+
 
 ## Objectives
 
@@ -20,23 +54,9 @@ A work-in-progress 1P PocketQube Earth observation satellite pushing the limits 
 - Ensure satellite operational lifespan of at least 2 years.
 - Enable reliable bilateral communication between the satellite and the ground station.
 
-<style>
-.responsive-img {
-  width: 70%;
-  display: block;
-  margin: 0 auto; /* center on larger screens */
-}
-
-@media (max-width: 768px) {
-  .responsive-img {
-    width: 100%;   /* full width on mobile */
-  }
-}
-</style>
-
 <img src="/img/nanosat/sat.png" class="responsive-img">
-
 <p><strong>Figure 1.</strong> The latest design of the satellite consists of five solar panel PCBs that fit together to form the satellite’s structure. The electronics fit tightly inside, including the flight board at the top, the communications board in the middle, and the power management board at the bottom. The bottom plate is a mounting PCB designed to fit inside rocker launchers for 1P satellites, featuring two switches that enable power to the satellite when launched from the rocket.</p>
+
 <img src="/img/nanosat/sat.jpg" class="responsive-img">
 <p><strong>Figure 2. </strong> The team worked closely with Nepali Orion Space to learn about satellites. This is the Nepali Orion pico satellite that we used to understand the development and requirements of nanosatellites. It consists of a communications board at the top, a payload board with pressure and IMU sensors, a flight controller board using an ATmega328P, and a power management board. </p>
 
@@ -44,13 +64,7 @@ A work-in-progress 1P PocketQube Earth observation satellite pushing the limits 
 ## PCB Designs
 
 Various software was used to design the PCBs. KiCad and Altium were the main PCB platforms used to set up schematics. layouts, and 3d models of the satellite. The team would collaborate using google drive and github to share designs together. Below are two pcbs, one is the power management board that converts 3.3V, 5V, and 1.8V managing the solar energy on the way. The second board is the embedded stm32 board that contains the interfaces for cameras, sensors, and GPIO for testing.
-<div style="
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  align-items: stretch;
-">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: stretch;">
 
   <div style="flex: 1 1 30%; text-align: center; display: flex; flex-direction: column;">
     <p><strong>3D Model (Solar Charger)</strong></p>
@@ -89,42 +103,9 @@ Various software was used to design the PCBs. KiCad and Altium were the main PCB
 
 **Note: If you are on mobile, click the powerpoint below to check out the powerpoint slides.
 <div class="pdf-embed-wrapper">
-  <embed src="/img/nanosat/pico-eps.pdf" type="application/pdf">
+    <embed src="/img/nanosat/pico-eps.pdf" type="application/pdf">
 </div>
 
-<!-- Mobile image button -->
 <a href="/img/nanosat/pico-eps.pdf" target="_blank" class="pdf-mobile-button">
-  <img src="/img/nanosat/pico-eps.pdf" alt="Open PDF" />
+    <img src="/img/nanosat/pico-eps.pdf" alt="Open PDF" />
 </a>
-
-<style>
-/* Default desktop behavior */
-.pdf-embed-wrapper embed {
-  width: 100%;
-  height: 600px;
-}
-
-/* Hide mobile button on desktop */
-.pdf-mobile-button {
-  display: none;
-  text-align: center;
-}
-
-/* Mobile behavior */
-@media (max-width: 768px) {
-  .pdf-embed-wrapper {
-    display: none;  /* hide embed */
-  }
-
-  .pdf-mobile-button {
-    display: block; /* show image button */
-    margin: 1rem auto;
-    width: 100%;     /* scale image */
-  }
-
-  .pdf-mobile-button img {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>

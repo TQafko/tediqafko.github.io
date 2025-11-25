@@ -7,8 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Overview A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging.
-Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. Capture high-quality images at an altitude of approximately 600 km. Ensure satellite operational lifespan of at least 2 years. Enable reliable bilateral communication between the satellite and the ground station. Figure 1. The latest design of the satellite consists of five solar panel PCBs that fit together to form the satellite’s structure. The electronics fit tightly inside, including the flight board at the top, the communications board in the middle, and the power management board at the bottom. The bottom plate is a mounting PCB designed to fit inside rocker launchers for 1P satellites, featuring two switches that enable power to the satellite when launched from the rocket.
+  content=" Overview A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging.
 "
 />
 <meta
@@ -26,6 +25,9 @@ Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. 
     <meta property="article:modified_time" content="2021-10-01T00:00:00+00:00">
     <meta property="article:tag" content="Satellite">
     <meta property="article:tag" content="Space">
+    <meta property="article:tag" content="Stm32">
+    <meta property="article:tag" content="KiCad">
+    <meta property="article:tag" content="Altium">
 
 
   <meta name="twitter:card" content="summary">
@@ -234,6 +236,57 @@ Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. 
         </a>
       </li>
       
+      <li>
+        <a href="/tags/stm32/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Stm32</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/kicad/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">KiCad</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/altium/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Altium</span>
+        </a>
+      </li>
+      
     
   </ul>
 
@@ -295,7 +348,40 @@ Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. 
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <h2 id="overview">Overview</h2>
+        <style>
+    .responsive-img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 768px) { .responsive-img { width: 100%; } }
+
+    .pdf-embed-wrapper embed {
+        width: 100%;
+        height: 600px;
+    }
+
+    .pdf-mobile-button {
+        display: none;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) { .pdf-embed-wrapper { display: none; }
+
+    .pdf-mobile-button {
+        display: block; 
+        margin: 1rem auto;
+        width: 100%; 
+    }
+
+    .pdf-mobile-button img {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+<h2 id="overview">Overview</h2>
 <p>A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging.</p>
 <h2 id="objectives">Objectives</h2>
 <ul>
@@ -304,32 +390,13 @@ Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. 
 <li>Ensure satellite operational lifespan of at least 2 years.</li>
 <li>Enable reliable bilateral communication between the satellite and the ground station.</li>
 </ul>
-<style>
-.responsive-img {
-  width: 70%;
-  display: block;
-  margin: 0 auto; /* center on larger screens */
-}
-
-@media (max-width: 768px) {
-  .responsive-img {
-    width: 100%;   /* full width on mobile */
-  }
-}
-</style>
 <img src="/img/nanosat/sat.png" class="responsive-img">
 <p><strong>Figure 1.</strong> The latest design of the satellite consists of five solar panel PCBs that fit together to form the satellite’s structure. The electronics fit tightly inside, including the flight board at the top, the communications board in the middle, and the power management board at the bottom. The bottom plate is a mounting PCB designed to fit inside rocker launchers for 1P satellites, featuring two switches that enable power to the satellite when launched from the rocket.</p>
 <img src="/img/nanosat/sat.jpg" class="responsive-img">
 <p><strong>Figure 2. </strong> The team worked closely with Nepali Orion Space to learn about satellites. This is the Nepali Orion pico satellite that we used to understand the development and requirements of nanosatellites. It consists of a communications board at the top, a payload board with pressure and IMU sensors, a flight controller board using an ATmega328P, and a power management board. </p>
 <h2 id="pcb-designs">PCB Designs</h2>
 <p>Various software was used to design the PCBs. KiCad and Altium were the main PCB platforms used to set up schematics. layouts, and 3d models of the satellite. The team would collaborate using google drive and github to share designs together. Below are two pcbs, one is the power management board that converts 3.3V, 5V, and 1.8V managing the solar energy on the way. The second board is the embedded stm32 board that contains the interfaces for cameras, sensors, and GPIO for testing.</p>
-<div style="
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  align-items: stretch;
-">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: stretch;">
   <div style="flex: 1 1 30%; text-align: center; display: flex; flex-direction: column;">
     <p><strong>3D Model (Solar Charger)</strong></p>
     <img src="/img/nanosat/solar-charger-3d.png" 
@@ -359,43 +426,11 @@ Objectives Design a compact 5 cm cube satellite for low-Earth orbit operations. 
 <h2 id="electrical-power-system--inital-solar-cell-layouts">Electrical Power System &amp; Inital Solar Cell Layouts</h2>
 <p>**Note: If you are on mobile, click the powerpoint below to check out the powerpoint slides.</p>
 <div class="pdf-embed-wrapper">
-  <embed src="/img/nanosat/pico-eps.pdf" type="application/pdf">
+    <embed src="/img/nanosat/pico-eps.pdf" type="application/pdf">
 </div>
-<!-- Mobile image button -->
 <a href="/img/nanosat/pico-eps.pdf" target="_blank" class="pdf-mobile-button">
-  <img src="/img/nanosat/pico-eps.pdf" alt="Open PDF" />
+    <img src="/img/nanosat/pico-eps.pdf" alt="Open PDF" />
 </a>
-<style>
-/* Default desktop behavior */
-.pdf-embed-wrapper embed {
-  width: 100%;
-  height: 600px;
-}
-
-/* Hide mobile button on desktop */
-.pdf-mobile-button {
-  display: none;
-  text-align: center;
-}
-
-/* Mobile behavior */
-@media (max-width: 768px) {
-  .pdf-embed-wrapper {
-    display: none;  /* hide embed */
-  }
-
-  .pdf-mobile-button {
-    display: block; /* show image button */
-    margin: 1rem auto;
-    width: 100%;     /* scale image */
-  }
-
-  .pdf-mobile-button img {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
 
       </article>
 
