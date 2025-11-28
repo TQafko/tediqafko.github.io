@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IoT on Portfolio</title>
-    <link>hhtp://192.168.12.112:1313/tags/iot/</link>
+    <link>http://localhost:1313/tags/iot/</link>
     <description>Recent content in IoT on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,13 +10,13 @@
     <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
     <copyright>Tedi Qafko</copyright>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="hhtp://192.168.12.112:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Object Tracking Sphere</title>
-      <link>hhtp://192.168.12.112:1313/projects/object-tracking-sphere/sphere/</link>
+      <link>http://localhost:1313/projects/object-tracking-sphere/sphere/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/projects/object-tracking-sphere/sphere/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;A spherical autonomous robot designed for low-cost freshwater monitoring, integrating reaction-wheel actuation, a buoyancy engine, and a modular sensor suite for real-time environmental data collection.&lt;/p&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center; align-items: center;&#34;&gt;&#xA;  &lt;video &#xA;    width=&#34;100%&#34; &#xA;    autoplay &#xA;    loop &#xA;    muted &#xA;    playsinline &#xA;    style=&#34;max-width: 100%; width: 100%;&#34;&#xA;  &gt;&#xA;    &lt;source src=&#34;hhtp://192.168.12.112:1313/img/sphere/reaction-wheel1.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;  &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; A prototype assembly of one of the components in the robot called a reaction wheel. Uses angular momentum to orient the sphere. Two of these on the sphere control 3 degrees of freedom&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/object-tracking-sphere/sphere/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;A spherical autonomous robot designed for low-cost freshwater monitoring, integrating reaction-wheel actuation, a buoyancy engine, and a modular sensor suite for real-time environmental data collection.&lt;/p&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center; align-items: center;&#34;&gt;&#xA;  &lt;video &#xA;    width=&#34;100%&#34; &#xA;    autoplay &#xA;    loop &#xA;    muted &#xA;    playsinline &#xA;    style=&#34;max-width: 100%; width: 100%;&#34;&#xA;  &gt;&#xA;    &lt;source src=&#34;http://localhost:1313/img/sphere/reaction-wheel1.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;  &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; A prototype assembly of one of the components in the robot called a reaction wheel. Uses angular momentum to orient the sphere. Two of these on the sphere control 3 degrees of freedom&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

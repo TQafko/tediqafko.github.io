@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Portfolio</title>
-    <link>hhtp://192.168.12.112:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,103 +10,117 @@
     <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
     <copyright>Tedi Qafko</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="hhtp://192.168.12.112:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Control</title>
-      <link>hhtp://192.168.12.112:1313/tags/control/</link>
+      <link>http://localhost:1313/tags/control/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/control/</guid>
+      <guid>http://localhost:1313/tags/control/</guid>
       <description></description>
     </item>
     <item>
       <title>Esp32</title>
-      <link>hhtp://192.168.12.112:1313/tags/esp32/</link>
+      <link>http://localhost:1313/tags/esp32/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/esp32/</guid>
+      <guid>http://localhost:1313/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
       <title>KiCad</title>
-      <link>hhtp://192.168.12.112:1313/tags/kicad/</link>
+      <link>http://localhost:1313/tags/kicad/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/kicad/</guid>
+      <guid>http://localhost:1313/tags/kicad/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>hhtp://192.168.12.112:1313/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Robot</title>
-      <link>hhtp://192.168.12.112:1313/tags/robot/</link>
+      <link>http://localhost:1313/tags/robot/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/robot/</guid>
+      <guid>http://localhost:1313/tags/robot/</guid>
       <description></description>
     </item>
     <item>
       <title>ROS</title>
-      <link>hhtp://192.168.12.112:1313/tags/ros/</link>
+      <link>http://localhost:1313/tags/ros/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/ros/</guid>
+      <guid>http://localhost:1313/tags/ros/</guid>
       <description></description>
     </item>
     <item>
       <title>SolidWorks</title>
-      <link>hhtp://192.168.12.112:1313/tags/solidworks/</link>
+      <link>http://localhost:1313/tags/solidworks/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/solidworks/</guid>
+      <guid>http://localhost:1313/tags/solidworks/</guid>
       <description></description>
     </item>
     <item>
       <title>Water</title>
-      <link>hhtp://192.168.12.112:1313/tags/water/</link>
+      <link>http://localhost:1313/tags/water/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/water/</guid>
+      <guid>http://localhost:1313/tags/water/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ardunio</title>
+      <link>http://localhost:1313/tags/ardunio/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
+      <guid>http://localhost:1313/tags/ardunio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bluetooth</title>
+      <link>http://localhost:1313/tags/bluetooth/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
+      <guid>http://localhost:1313/tags/bluetooth/</guid>
       <description></description>
     </item>
     <item>
       <title>Altium</title>
-      <link>hhtp://192.168.12.112:1313/tags/altium/</link>
+      <link>http://localhost:1313/tags/altium/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/altium/</guid>
+      <guid>http://localhost:1313/tags/altium/</guid>
       <description></description>
     </item>
     <item>
       <title>Satellite</title>
-      <link>hhtp://192.168.12.112:1313/tags/satellite/</link>
+      <link>http://localhost:1313/tags/satellite/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/satellite/</guid>
+      <guid>http://localhost:1313/tags/satellite/</guid>
       <description></description>
     </item>
     <item>
       <title>Space</title>
-      <link>hhtp://192.168.12.112:1313/tags/space/</link>
+      <link>http://localhost:1313/tags/space/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/space/</guid>
+      <guid>http://localhost:1313/tags/space/</guid>
       <description></description>
     </item>
     <item>
       <title>Stm32</title>
-      <link>hhtp://192.168.12.112:1313/tags/stm32/</link>
+      <link>http://localhost:1313/tags/stm32/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/stm32/</guid>
+      <guid>http://localhost:1313/tags/stm32/</guid>
       <description></description>
     </item>
     <item>
       <title>IoT</title>
-      <link>hhtp://192.168.12.112:1313/tags/iot/</link>
+      <link>http://localhost:1313/tags/iot/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/iot/</guid>
+      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Network</title>
-      <link>hhtp://192.168.12.112:1313/tags/network/</link>
+      <link>http://localhost:1313/tags/network/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/tags/network/</guid>
+      <guid>http://localhost:1313/tags/network/</guid>
       <description></description>
     </item>
   </channel>

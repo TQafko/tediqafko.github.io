@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS on Portfolio</title>
-    <link>hhtp://192.168.12.112:1313/tags/ros/</link>
+    <link>http://localhost:1313/tags/ros/</link>
     <description>Recent content in ROS on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,13 +10,13 @@
     <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
     <copyright>Tedi Qafko</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="hhtp://192.168.12.112:1313/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 Underwater Rover</title>
-      <link>hhtp://192.168.12.112:1313/projects/rov/2024/2024/</link>
+      <link>http://localhost:1313/projects/rov/2024/2024/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/projects/rov/2024/2024/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;hhtp://192.168.12.112:1313/css/custom.css&#34;&gt;&#xA;&lt;style&gt;&#xA;    .power-container {&#xA;        display: flex;&#xA;        flex-wrap: wrap;&#xA;        gap: 20px;&#xA;        align-items: center;&#xA;    }&#xA;&#xA;    .power-image {&#xA;        flex: 1;&#xA;        text-align: center;&#xA;    }&#xA;&#xA;    .power-image img {&#xA;        max-width: 100%;&#xA;        height: auto;&#xA;        border-radius: 8px;&#xA;    }&#xA;&#xA;    .power-text {&#xA;        flex: 1;&#xA;    }&#xA;&#xA;    @media (max-width: 768px) { .power-container { flex-direction: column; text-align: left; }&#xA;                                .power-image img { width: 100%; }&#xA;    }&#xA;    @media (max-width: 768px){ div[style*=&#34;display:flex&#34;] &gt; div { flex-basis: 100% !important; }}&#xA;&lt;/style&gt;&#xA;&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;Designed a Remotely Operated Vehicle equipped with cameras, sonar, and environmental sensors for underwater exploration. The system features onboard computing for navigation, data analysis, and communication, along with electric thrusters and robotic arms for movement, object manipulation, and sample collection.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/rov/2024/2024/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/custom.css&#34;&gt;&#xA;&lt;style&gt;&#xA;    .power-container {&#xA;        display: flex;&#xA;        flex-wrap: wrap;&#xA;        gap: 20px;&#xA;        align-items: center;&#xA;    }&#xA;&#xA;    .power-image {&#xA;        flex: 1;&#xA;        text-align: center;&#xA;    }&#xA;&#xA;    .power-image img {&#xA;        max-width: 100%;&#xA;        height: auto;&#xA;        border-radius: 8px;&#xA;    }&#xA;&#xA;    .power-text {&#xA;        flex: 1;&#xA;    }&#xA;&#xA;    @media (max-width: 768px) { .power-container { flex-direction: column; text-align: left; }&#xA;                                .power-image img { width: 100%; }&#xA;    }&#xA;    @media (max-width: 768px){ div[style*=&#34;display:flex&#34;] &gt; div { flex-basis: 100% !important; }}&#xA;&lt;/style&gt;&#xA;&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;Designed a Remotely Operated Vehicle equipped with cameras, sonar, and environmental sensors for underwater exploration. The system features onboard computing for navigation, data analysis, and communication, along with electric thrusters and robotic arms for movement, object manipulation, and sample collection.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

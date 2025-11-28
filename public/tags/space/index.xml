@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Space on Portfolio</title>
-    <link>hhtp://192.168.12.112:1313/tags/space/</link>
+    <link>http://localhost:1313/tags/space/</link>
     <description>Recent content in Space on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>tedi.qafko@gmail.com (Tedi Qafko)</webMaster>
     <copyright>Tedi Qafko</copyright>
     <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="hhtp://192.168.12.112:1313/tags/space/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1P Nano Satellite</title>
-      <link>hhtp://192.168.12.112:1313/projects/nanosatellite/satellite/</link>
+      <link>http://localhost:1313/projects/nanosatellite/satellite/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>tedi.qafko@gmail.com (Tedi Qafko)</author>
-      <guid>hhtp://192.168.12.112:1313/projects/nanosatellite/satellite/</guid>
+      <guid>http://localhost:1313/projects/nanosatellite/satellite/</guid>
       <description>&lt;style&gt;&#xA;    .responsive-img {&#xA;        width: 70%;&#xA;        display: block;&#xA;        margin: 0 auto;&#xA;    }&#xA;&#xA;    @media (max-width: 768px) { .responsive-img { width: 100%; } }&#xA;&#xA;    .pdf-embed-wrapper embed {&#xA;        width: 100%;&#xA;        height: 600px;&#xA;    }&#xA;&#xA;    .pdf-mobile-button {&#xA;        display: none;&#xA;        text-align: center;&#xA;    }&#xA;&#xA;    @media (max-width: 768px) { .pdf-embed-wrapper { display: none; }&#xA;&#xA;    .pdf-mobile-button {&#xA;        display: block; &#xA;        margin: 1rem auto;&#xA;        width: 100%; &#xA;    }&#xA;&#xA;    .pdf-mobile-button img {&#xA;        width: 100%;&#xA;        height: auto;&#xA;    }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A work-in-progress 1P PocketQube Earth observation satellite pushing the limits of miniaturization. It integrates advanced image sensors and commercial off-the-shelf components, with an embedded magnetorquer-based ADCS to precisely control camera pointing for high-quality Earth imaging.&lt;/p&gt;</description>
     </item>
   </channel>
