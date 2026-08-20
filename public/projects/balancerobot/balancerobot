@@ -1,7 +1,0 @@
-+++
-title = "Float IoT Device"
-date = "2024-09-01" 
-description = "The float is a semi-autonomous underwater device designed to quickly profile aquatic environments while sending real-time depth data to a surface station. Its compact waterproof housing, adjustable ballast, and stepper-driven buoyancy system make it both precise and robust for variable underwater conditions."
-tags = ["robot", "water","esp32","control"]
-image = "/img/float/float-3d.png"
-+++

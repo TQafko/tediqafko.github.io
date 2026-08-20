@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Tedi Qafko Portfolio",
+    "slug": "tedi-qafko-portfolio",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "tediqafko",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0e1116",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"]
+  }
+}
