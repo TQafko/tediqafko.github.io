@@ -4,6 +4,11 @@ import { ContentRenderer } from '../../components/ContentRenderer';
 import { projects } from '../../content/projects';
 import { theme } from '../../theme';
 
+/** Pre-render one HTML page per project so GitHub Pages can serve /projects/<slug>. */
+export function generateStaticParams() {
+  return projects.map((project) => ({ slug: project.slug }));
+}
+
 export default function ProjectPage() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const project = projects.find((p) => p.slug === slug);

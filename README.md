@@ -24,7 +24,7 @@ To build a static site for deployment:
 npx expo export --platform web
 ```
 
-The output goes to `dist/`.
+The output goes to `dist/`. Pushing to `react-native-site` (or `main`) runs GitHub Actions, which exports the site and deploys it to GitHub Pages at [tediqafko.com](https://tediqafko.com).
 
 ## Adding a project
 
