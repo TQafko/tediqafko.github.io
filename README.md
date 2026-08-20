@@ -12,7 +12,6 @@ Portfolio site rebuilt from Hugo using **React Native** ([Expo](https://expo.dev
 ## Running
 
 ```bash
-cd rn-site
 npm install
 npm run web      # opens the site in the browser
 ```
@@ -45,5 +44,6 @@ sorted by date.
 
 ## Adding a research publication
 
-Add an entry to the array in `content/research.ts` with `year`, `image`, and
-`citation`. The page groups publications by year automatically.
+Add an entry to the array in `content/research.ts` with `year`, `image`,
+`title`, `venue`, `description`, and `url`. The page groups publications
+by year automatically.
