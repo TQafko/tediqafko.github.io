@@ -2,9 +2,9 @@ import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { theme } from '../theme';
 
 const TOOL_ICONS = [
-  { name: 'Python', uri: 'https://media.giphy.com/media/3rCcV6sC1o2GY/giphy.gif' },
-  { name: 'C/C++', uri: 'https://i.giphy.com/media/LMt9638dO8dftAjtco/200.webp' },
-  { name: 'Linux', uri: 'https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp' },
+  { name: 'C/C++', uri: 'https://media.giphy.com/media/3rCcV6sC1o2GY/giphy.gif' },
+  { name: 'Python', uri: 'https://i.giphy.com/media/LMt9638dO8dftAjtco/200.webp' },
+  { name: 'VS Code', uri: 'https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp' },
   { name: 'Git', uri: 'https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif' },
   {
     name: 'MATLAB',
@@ -23,11 +23,6 @@ export default function AboutPage() {
     <ScrollView contentContainerStyle={styles.scroll}>
       <View style={styles.page}>
         <Text style={styles.title}>About Me</Text>
-        <Image
-          source={require('../assets/img/logo_tedi.jpg')}
-          style={styles.photo}
-          resizeMode="cover"
-        />
         {BIO.map((paragraph, i) => (
           <Text key={i} style={styles.paragraph}>
             {paragraph}
@@ -61,12 +56,6 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 34,
     fontWeight: '800',
-  },
-  photo: {
-    width: '100%',
-    maxWidth: 420,
-    aspectRatio: 1,
-    borderRadius: 12,
   },
   paragraph: {
     color: theme.colors.textMuted,

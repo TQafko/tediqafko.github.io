@@ -13,44 +13,42 @@ export function ProjectCard({ project }: Props) {
 
   // Visual styles live on Views, not the Pressable: expo-router's
   // `Link asChild` drops the style prop of its direct child.
+  // The parent grid controls this card's width so all cards match.
   return (
-    <View style={styles.gridItem}>
-      <Link href={`/projects/${project.slug}`} asChild>
-        <Pressable onHoverIn={() => setHovered(true)} onHoverOut={() => setHovered(false)}>
-          <View style={[styles.card, hovered && styles.cardHovered]}>
-            <Image source={project.image} style={styles.thumbnail} resizeMode="cover" />
-            <View style={styles.cardBody}>
-              <Text style={styles.title}>{project.title}</Text>
-              <Text style={styles.description} numberOfLines={3}>
-                {project.description}
-              </Text>
-              <View style={styles.tags}>
-                {project.tags.map((tag) => (
-                  <Text key={tag} style={styles.tag}>
-                    {tag}
-                  </Text>
-                ))}
-              </View>
+    <Link href={`/projects/${project.slug}`} asChild>
+      <Pressable onHoverIn={() => setHovered(true)} onHoverOut={() => setHovered(false)}>
+        <View style={[styles.card, hovered && styles.cardHovered]}>
+          <Image source={project.image} style={styles.thumbnail} resizeMode="cover" />
+          <View style={styles.cardBody}>
+            <Text style={styles.title} numberOfLines={1}>
+              {project.title}
+            </Text>
+            <Text style={styles.description} numberOfLines={3}>
+              {project.description}
+            </Text>
+            <View style={styles.tags}>
+              {project.tags.map((tag) => (
+                <Text key={tag} style={styles.tag}>
+                  {tag}
+                </Text>
+              ))}
             </View>
           </View>
-        </Pressable>
-      </Link>
-    </View>
+        </View>
+      </Pressable>
+    </Link>
   );
 }
 
 const styles = StyleSheet.create({
-  gridItem: {
-    flexGrow: 1,
-    flexBasis: 280,
-    maxWidth: 420,
-  },
   card: {
     backgroundColor: theme.colors.surface,
     borderWidth: 1,
     borderColor: theme.colors.border,
     borderRadius: 12,
     overflow: 'hidden',
+    // Fixed content height so every card in the grid is the same size.
+    height: 372,
   },
   cardHovered: {
     borderColor: theme.colors.accent,
@@ -74,13 +72,12 @@ const styles = StyleSheet.create({
     color: theme.colors.textMuted,
     fontSize: 14,
     lineHeight: 21,
-    flex: 1,
   },
   tags: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 6,
-    marginTop: 4,
+    marginTop: 'auto',
   },
   tag: {
     color: theme.colors.tagText,

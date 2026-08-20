@@ -1,4 +1,4 @@
-import { Image, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { Image, Linking, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { publications } from '../content/research';
 import { theme } from '../theme';
 
@@ -24,7 +24,14 @@ export default function ResearchPage() {
                     style={[styles.image, stacked && styles.imageStacked]}
                     resizeMode="cover"
                   />
-                  <Text style={styles.citation}>{pub.citation}</Text>
+                  <View style={styles.details}>
+                    <Text style={styles.pubTitle}>{pub.title}</Text>
+                    <Text style={styles.venue}>{pub.venue}</Text>
+                    <Text style={styles.description}>{pub.description}</Text>
+                    <Text style={styles.link} onPress={() => Linking.openURL(pub.url)}>
+                      {pub.urlLabel ?? 'Find it online \u2192'}
+                    </Text>
+                  </View>
                 </View>
               ))}
           </View>
@@ -66,12 +73,12 @@ const styles = StyleSheet.create({
   publication: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 16,
+    gap: 18,
     backgroundColor: theme.colors.surface,
     borderWidth: 1,
     borderColor: theme.colors.border,
     borderRadius: 12,
-    padding: 14,
+    padding: 16,
   },
   publicationStacked: {
     flexDirection: 'column',
@@ -79,7 +86,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: 200,
-    height: 130,
+    height: 140,
     borderRadius: 8,
     backgroundColor: theme.colors.background,
   },
@@ -87,10 +94,33 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 180,
   },
-  citation: {
+  details: {
     flex: 1,
+    gap: 6,
+  },
+  pubTitle: {
+    color: theme.colors.text,
+    fontSize: 17,
+    fontWeight: '700',
+    lineHeight: 24,
+  },
+  venue: {
+    color: theme.colors.textMuted,
+    fontSize: 13,
+    lineHeight: 19,
+    fontStyle: 'italic',
+  },
+  description: {
     color: theme.colors.textMuted,
     fontSize: 15,
-    lineHeight: 24,
+    lineHeight: 23,
+    marginTop: 2,
+  },
+  link: {
+    color: theme.colors.accent,
+    fontSize: 14,
+    fontWeight: '600',
+    marginTop: 4,
+    alignSelf: 'flex-start',
   },
 });

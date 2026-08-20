@@ -34,7 +34,14 @@ export interface Project {
 export interface Publication {
   year: number;
   image: ImageSourcePropType;
-  citation: string;
-  /** Optional DOI or external link */
-  url?: string;
+  /** Title of the paper/research */
+  title: string;
+  /** Where and when it was published, shown as the subtitle */
+  venue: string;
+  /** Short description of what the work is about */
+  description: string;
+  /** Link to find the publication online (DOI or similar) */
+  url: string;
+  /** Label for the link, defaults to "Find it online" */
+  urlLabel?: string;
 }
