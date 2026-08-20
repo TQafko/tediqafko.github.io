@@ -49,7 +49,7 @@ export const publications: Publication[] = [
     venue: 'APS March Meeting \u00b7 Art. no. S34.003 \u00b7 2023',
     description:
       'Describes an accessible approach for exfoliating and characterizing graphene and other 2D materials with equipment available in an undergraduate physics lab.',
-    url: 'https://scholar.google.com/scholar?q=%22Bringing+Graphene+into+the+Undergraduate+Lab%22',
+    url: 'https://pubs.aip.org/aapt/ajp/article-abstract/92/9/703/3309084/Bringing-graphene-into-the-undergraduate-classroom',
   },
   {
     year: 2022,
